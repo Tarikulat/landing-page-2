@@ -86,7 +86,8 @@ body {
 /* Discount Section */
 .discount-section {
     background-color: #E5E5E5;
-    padding-top: 30px;
+    padding-top: 25px;
+    padding-bottom: 24px
 }
 
 /* Image Styles */
@@ -97,21 +98,99 @@ body {
     margin: 0 auto;
 }
 
+
+
+/* .selling-point{
+    display: grid;
+    background-color: rgb(255, 115, 0);
+    height: 200px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+   
+}
+
+.body-card{
+    display: grid;
+    align-items: center;
+}
+
+
+.body-card p{
+    color: whitesmoke;
+    font-size: 24px;
+    font-weight: bolder;
+} */
+
+/* .card-section{
+    align-items: start;
+	display: grid;
+	grid-gap: 1%;
+	grid-template-columns: repeat(auto-fit, 24%);
+	justify-content: center;
+
+}
+
+
+
+.card-field{
+    display: flex;
+    background-color: rgb(255, 85, 0);
+    align-items: center;
+    justify-content: center;
+   
+   
+} */
+
+
+
+.row{ margin: 10px; }
 .card {
-    border: none;
-    /* Remove border from the card */
+    height: 250px;
+    width: 100%;
+    background: #e8e8e8;
+    box-shadow: 1px 1px 5px lightgrey;
+    padding: 10px;
+    border: 1px solid lightgrey;
+    border-radius: 4px;
+    background-color: orangered;
 }
 
-.bg-warning {
-    background-color: orange;
-    /* Set the background color to orange */
-}
 
 
 
+/* Checkmark */
 
+:root {
+    --primary: #ffffff;
+    --checkmarkColor: rgb(255, 115, 0);
+    --size: 50px;
+    --checkmarkFat: 5px;
+  }
+  
 
-
+  body {
+    padding: 20px;
+  }
+  
+  .circle {
+    position: relative;
+    background: var(--primary);
+    border-radius: 50%;
+    width: var(--size);
+    height: var(--size);
+  }
+  
+  .checkmark {
+    position: absolute;
+    transform: rotate(45deg) translate(-50%, -50%);
+    left: 30%;
+    top: 45%;
+    height: calc(var(--size) / 2);
+    width: calc(var(--size) / 5);
+    border-bottom: var(--checkmarkFat) solid var(--checkmarkColor);
+    border-right: var(--checkmarkFat) solid var(--checkmarkColor);
+  }
 
 
 
