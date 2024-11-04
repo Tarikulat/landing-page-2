@@ -1,0 +1,135 @@
+/* Global Styles */
+body {
+    font-family: "Hind Siliguri", Sans-serif;
+}
+
+.bg-primary {
+    background-color: #6B035E !important;
+    padding-top: 50px;
+    color: #FFFFFF;
+}
+
+.text-center {
+    text-align: center;
+}
+
+/* Title Styles */
+.title-box,
+.discount-title-box {
+    padding: 15px;
+    background-color: #17706A;
+    border: 1px solid #1CFF00;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+}
+
+.title-text,
+.discount-title-text {
+    color: #FFFFFF;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 1;
+    margin: 0;
+}
+
+.discount-title-text {
+    font-size: 40px;
+}
+
+/* Description Styles */
+.description-box {
+    padding-top: 25px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+}
+
+.highlight-text {
+    font-size: 45px;
+    font-weight: 600;
+    line-height: 1.7;
+}
+
+.highlight {
+    color: yellow;
+}
+
+.comfort-text {
+   color: #FFFFFF;
+   font-family: "Hind Siliguri",
+   Sans-serif;
+   font-size: 35px;
+   font-weight: 700;
+   line-height: 1.7em;
+   padding-top: 40px;
+   text-decoration: none;
+}
+
+/* Button Styles */
+.btn-container {
+   padding-top: 30px;
+   padding-bottom: 60px;
+}
+
+.order-btn {
+    font-size: 35px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #FF0000;
+    padding: 15px 70px;
+    border-radius: 50px;
+    border-style: dotted;
+    text-decoration: none;
+}
+
+/* Discount Section */
+.discount-section {
+    background-color: #E5E5E5;
+    padding-top: 30px;
+}
+
+/* Image Styles */
+.image-box img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.card {
+    border: none;
+    /* Remove border from the card */
+}
+
+.bg-warning {
+    background-color: orange;
+    /* Set the background color to orange */
+}
+
+
+
+
+
+
+
+
+
+/* Responsive Design */
+@media (max-width: 767px) {
+
+    .title-text,
+    .highlight-text,
+    .comfort-text,
+    .order-btn {
+        font-size: 24px;
+    }
+
+    .discount-title-text {
+        font-size: 28px;
+    }
+
+    .order-btn {
+        padding: 10px 30px;
+    }
+}
