@@ -14,8 +14,8 @@ body {
 }
 
 /* Title Styles */
-.title-box,
-.discount-title-box {
+
+.title-box {
     padding: 15px;
     background-color: #17706A;
     border: 1px solid #1CFF00;
@@ -68,12 +68,12 @@ body {
 
 /* Button Styles */
 .btn-container {
-   padding-top: 30px;
-   padding-bottom: 60px;
+   padding-top: 10px;
+   padding-bottom: 30px;
 }
 
 .order-btn {
-    font-size: 35px;
+    font-size: 32px;
     font-weight: bold;
     color: #fff;
     background-color: #FF0000;
@@ -100,64 +100,143 @@ body {
 
 
 
-/* .selling-point{
-    display: grid;
-    background-color: rgb(255, 115, 0);
-    height: 200px;
-    align-items: center;
-    text-align: center;
-    justify-content: center;
-   
+
+.row{ 
+   padding: 5px;
 }
-
-.body-card{
-    display: grid;
-    align-items: center;
-}
-
-
-.body-card p{
-    color: whitesmoke;
-    font-size: 24px;
-    font-weight: bolder;
-} */
-
-/* .card-section{
-    align-items: start;
-	display: grid;
-	grid-gap: 1%;
-	grid-template-columns: repeat(auto-fit, 24%);
-	justify-content: center;
-
-}
-
-
-
-.card-field{
-    display: flex;
-    background-color: rgb(255, 85, 0);
-    align-items: center;
-    justify-content: center;
-   
-   
-} */
-
-
-
-.row{ margin: 10px; }
 .card {
     height: 250px;
-    width: 100%;
-    background: #e8e8e8;
-    box-shadow: 1px 1px 5px lightgrey;
-    padding: 10px;
+    
     border: 1px solid lightgrey;
-    border-radius: 4px;
-    background-color: orangered;
+    background-color: rgb(255, 94, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    border-top-left-radius: 30%;
+    border-bottom-right-radius: 30%;
+    font-size: 25px;
+    font-weight: bolder;
+    color: whitesmoke;
+
+}
+
+.card div{
+    display: grid;
+    text-align: center;
+   
+}
+
+
+.speciality-section {
+    background-color: rgb(14, 22, 55);
+    
+}
+
+.speciality-title {
+    display: grid;
+    height: 80px;
+    background-color: #04683c;
+    border: 1px solid #1CFF00;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    align-items: center;
+    color: whitesmoke;
+    font-size: 30px;
+    font-weight: bolder;
+    
+}
+
+.speciality-list{
+    padding-top: 25px;
+    padding-left: 0px;
+    }
+.speciality-list li{
+list-style-type: none;
+color: whitesmoke;
+font-size: 28px;
+padding-top: 7px;
 }
 
 
 
+
+
+
+.product-description {
+    background-color: rgba(252, 195, 195, 0.681);
+    
+}
+
+.description-title {
+    display: grid;
+    height: 80px;
+    background-color: #ff0000;
+    border: 1px solid #ff8000d8;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    align-items: center;
+    color: rgb(245, 245, 245);
+    font-size: 30px;
+    font-weight: bolder;
+    
+}
+
+.description-list{
+    padding-top: 20px;
+    padding-left: 0px;
+    }
+.description-list li{
+list-style-type: none;
+color: rgb(4, 24, 68);
+font-size: 25px;
+padding-top: 7px;
+font-weight: bolder;
+}
+
+
+.offer-section {
+    display: grid;
+    background-color: rgb(0, 0, 0);
+    height: 200px;
+}
+
+.offer-section div {
+    display: grid;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.offer-section div span {
+    display: grid;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: whitesmoke;
+    font-size: 28px;
+    font-weight: bolder;
+    padding-top: 10px;
+}
+
+.alert-title {
+    display: grid;
+    background-color: #ff0000;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    align-items: center;
+    color: rgb(245, 245, 245);
+    font-size: 22px;
+    font-weight: bolder;
+    padding: 30px;
+    
+}
+
+.concentration{
+    font-size: 30px;
+    font-weight: bolder;
+}
 
 /* Checkmark */
 
@@ -193,6 +272,132 @@ body {
   }
 
 
+
+
+
+.help-desk {
+    display: grid;
+    height: 80px;
+    background-color: #ff0000;
+    border: 1px solid #d60000;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    align-items: center;
+    color: rgb(245, 245, 245);
+    font-size: 30px;
+    font-weight: bolder;
+    
+}
+
+.description-list{
+    padding-top: 20px;
+    padding-left: 0px;
+    }
+.description-list li{
+list-style-type: none;
+color: rgb(4, 24, 68);
+font-size: 25px;
+padding-top: 7px;
+font-weight: bolder;
+}
+
+
+.order-section {
+    background-color: rgba(252, 195, 195, 0.681);
+    
+}
+
+
+.order-field{
+    display: grid;
+    background-color: #05A367;
+    border: 1px solid #018754;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    align-items: center;
+    font-size: 25px;
+    font-weight: bolder;
+    padding: 40px 20px 20px 20px;
+}
+
+.inner-field{
+    background-color: orangered;
+}
+
+.notice-field{
+    background-color: white;
+}
+
+
+.demo-card {
+    padding: 20px 10px;
+    background-color: #fff;
+    border-radius: 10px;
+  }
+
+
+
+
+
+
+  /* Product Quantity */
+.wrapper {
+    height: 30px;
+    display: flex;
+  }
+  .quantity {
+    text-align: center;
+    width: 33px;
+    height: 34px;
+    font-size: 14px;
+    color: #201d1d;
+    font-weight: bold;
+    border: 1px solid #e1e8ee;
+   
+  }
+  
+  .btn-pls {
+    border: 1px solid #9b9b9b;
+    width: 30px;
+    background-color: #fdfdfd;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    /* cursor: pointer; */
+  }
+  
+  .btn-mns {
+    border: 1px solid #9b9b9b;
+    width: 30px;
+    background-color: #fdfdfd;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+  }
+  
+  button:focus,
+  input:focus {
+    outline: 5px;
+  }
+  
+  /* Hide the number input spin buttons */
+  .input-box::-webkit-inner-spin-button,
+  .input-box::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+  
+  .input-box[type="number"] {
+    -moz-appearance: textfield;
+  }
+  
+  ::-webkit-input-placeholder {
+    font-size: 12px;
+  }
+  .form-text {
+    font-size: 11px;
+  }
+  
 
 /* Responsive Design */
 @media (max-width: 767px) {
