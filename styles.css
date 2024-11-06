@@ -83,6 +83,13 @@ body {
     text-decoration: none;
 }
 
+.order-title{
+    font-size: 24px;
+    font-weight: bolder;
+    color: white;
+    
+}
+
 /* Discount Section */
 .discount-section {
     background-color: #E5E5E5;
@@ -248,9 +255,7 @@ font-weight: bolder;
   }
   
 
-  body {
-    padding: 20px;
-  }
+  
   
   .circle {
     position: relative;
@@ -266,12 +271,69 @@ font-weight: bolder;
     left: 30%;
     top: 45%;
     height: calc(var(--size) / 2);
-    width: calc(var(--size) / 5);
+    width: calc(var(--size) / 4);
     border-bottom: var(--checkmarkFat) solid var(--checkmarkColor);
     border-right: var(--checkmarkFat) solid var(--checkmarkColor);
   }
 
 
+
+
+  :root {
+    --secondary: #e0e0e0; 
+    --checkmarkColorSecondary: rgb(0, 0, 0); 
+    --sizeSecondary: 40px; 
+    --checkmarkFatSecondary: 5px; 
+  }
+  
+  .circle-secondary {
+    background: var(--secondary);
+    width: var(--sizeSecondary);
+    height: var(--sizeSecondary);
+    
+    border-radius: 50%;
+    position: relative;
+  }
+  
+  .checkmark-secondary {
+    position: absolute;
+    transform: rotate(45deg) translate(-50%, -50%);
+    left: 35%; 
+    top: 45%;
+    height: calc(var(--sizeSecondary) / 2);
+    width: calc(var(--sizeSecondary) / 4);
+    border-bottom: var(--checkmarkFatSecondary) solid var(--checkmarkColorSecondary);
+    border-right: var(--checkmarkFatSecondary) solid var(--checkmarkColorSecondary);
+  }
+
+
+
+  
+  :root {
+    --tertiary: #A50000; 
+    --checkmarkColorTertiary:rgb(255, 209, 209); 
+    --sizeTertiary: 40px; 
+    --checkmarkFatTertiary: 5px; 
+  }
+  
+  .circle-tertiary {
+    background: var(--tertiary);
+    width: var(--sizeTertiary);
+    height: var(--sizeTertiary);
+    border-radius: 50%;
+    position: relative;
+  }
+  
+  .checkmark-tertiary {
+    position: absolute;
+    transform: rotate(45deg) translate(-50%, -50%);
+    left: 35%; 
+    top: 50%; 
+    height: calc(var(--sizeTertiary) / 2);
+    width: calc(var(--sizeTertiary) / 4);
+    border-bottom: var(--checkmarkFatTertiary) solid var(--checkmarkColorTertiary);
+    border-right: var(--checkmarkFatTertiary) solid var(--checkmarkColorTertiary);
+  }
 
 
 
@@ -303,11 +365,23 @@ font-weight: bolder;
 }
 
 
+
+
 .order-section {
     background-color: rgba(252, 195, 195, 0.681);
     
 }
 
+.billing{
+    text-align: start;
+    color: whitesmoke;
+}
+
+.bill-dtl {
+    margin: 0px;
+    padding: 20px 10px;
+    font-size: 16px;
+}
 
 .order-field{
     display: grid;
@@ -332,11 +406,19 @@ font-weight: bolder;
 
 
 .demo-card {
-    padding: 20px 10px;
+    display: flex;
+    padding: 10px 10px;
     background-color: #fff;
     border-radius: 10px;
   }
 
+.demo-card span{
+    font-size: 15px;
+}
+
+.price-font{
+    font-size: 15px;
+}
 
 
 
@@ -398,6 +480,111 @@ font-weight: bolder;
     font-size: 11px;
   }
   
+  .dash {
+    border: none;
+    border-top: 2px dashed #ffffff;
+    height: 0;
+  }
+
+  :root {
+    accent-color: rgb(255, 94, 0);
+  }
+  
+  [type="radio"] {
+    font-size: inherit;
+    width: 0.95em;
+    height: 0.95em;
+  }
+
+  .form-control{
+    height: 60px;
+  }
+  
+.triangle-top-left-2 {
+    position: relative;
+    left: 5%;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 15px 15px 0;
+  
+    border-color: transparent transparent rgba(213, 213, 213, 0.71) transparent;
+  }
+  
+  .pop {
+    display: flex;
+    background-color: rgba(213, 213, 213, 0.71);
+    height: 55px;
+    align-items: center;
+    
+    border-radius: 5px;
+  }
+
+  .pay-order{
+   display: grid;
+    height: 150px;
+    background-color: white;
+    align-items: center;
+    text-align: left;
+    border-radius: 15px;
+    font-size: 16px;
+    color: black;
+   
+  }
+
+  .ordr-submt{
+    background-color: rgb(0, 0, 0);
+    height: 80px;
+    border-radius: 5px;
+    border: none;
+    color: whitesmoke;
+  }
+  
+
+
+  
+.footer-sec{
+    height: 400px;
+    background-color: #000;
+   
+  }
+  
+  .footer-left {
+    display: grid;
+    color: whitesmoke;
+    padding-top: 40px;
+    justify-content: center;
+  }
+  
+  .footer-left span{
+    padding: 10px;
+    font-size: 25px;
+    text-align: left;
+  }
+  
+  .copyright-text{
+    font-size: 16px;
+    text-align: center;
+    margin-top: 10px;
+    color: whitesmoke;
+    font-weight: bold;
+  }
+  
+  .copyright-note{
+    font-size: 14px;
+    text-align: center;
+    margin-top: 10px;
+    color: whitesmoke;
+    font-weight: bold;
+  }
+
+  .address-icon{
+    height: 40px;
+    width: 37px;
+    margin-right: 5px;
+  }
+
+
 
 /* Responsive Design */
 @media (max-width: 767px) {
@@ -417,3 +604,293 @@ font-weight: bolder;
         padding: 10px 30px;
     }
 }
+
+
+/* @media (max-width:320px){
+    .bg-primary {
+        background-color: #6B035E !important;
+        padding-top: 50px;
+        color: #FFFFFF;
+    }
+
+    
+.text-center {
+    text-align: center;
+}
+
+
+.speciality-title {
+    display: grid;
+    height: 80px;
+    background-color: #04683c;
+    border: 1px solid #1CFF00;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    align-items: center;
+    color: whitesmoke;
+    font-size: 22px;
+    font-weight: bolder;
+    
+}
+
+
+.order-section {
+    background-color: rgba(252, 195, 195, 0.681);
+    
+}
+
+.billing{
+    text-align: start;
+    color: whitesmoke;
+}
+
+.bill-dtl {
+    margin: 0px;
+    padding: 20px 10px;
+    font-size: 16px;
+}
+
+.order-field{
+    display: grid;
+    background-color: #05A367;
+    border: 1px solid #018754;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    align-items: center;
+    font-size: 25px;
+    font-weight: bolder;
+    padding: 40px 20px 20px 20px;
+    margin-bottom: 35px;
+}
+
+.order-title{
+    font-size: 18px;
+    font-weight: bolder;
+    color: white;
+    
+}
+
+.inner-field{
+    background-color: orangered;
+}
+
+.notice-field{
+    background-color: white;
+}
+
+
+.demo-card {
+    padding: 20px 10px;
+    background-color: #fff;
+    border-radius: 10px;
+  }
+
+.demo-card span{
+    font-size: 15px;
+}
+
+.price-font{
+    font-size: 15px;
+}
+
+
+
+
+  
+.footer-sec{
+    height: 400px;
+    background-color: #000;
+   
+  }
+  
+  .footer-left {
+    display: grid;
+    color: whitesmoke;
+    padding-top: 40px;
+    justify-content: center;
+  }
+  
+  .footer-left span{
+    padding: 10px;
+    font-size: 25px;
+    text-align: left;
+  }
+  
+  .copyright-text{
+    font-size: 16px;
+    text-align: center;
+    margin-top: 10px;
+    color: whitesmoke;
+    font-weight: bold;
+  }
+  
+  .copyright-note{
+    font-size: 14px;
+    text-align: center;
+    margin-top: 10px;
+    color: whitesmoke;
+    font-weight: bold;
+  }
+
+  .address-icon{
+    height: 40px;
+    width: 37px;
+    margin-right: 5px;
+  }
+
+
+
+
+
+
+
+
+
+} */
+
+
+@media (max-width: 320px) {
+    .container {
+      padding: 0;
+    }
+  
+    .order-title span {
+      font-size: 16px;
+      font-weight: bolder;
+      padding: 10px;
+    }
+  
+    .demo-card img {
+      width: 40px;
+      height: 40px;
+    }
+
+    .demo-card span{
+        font-size: 13px;
+    }
+    
+  
+    .price-font {
+      font-size: 12px;
+    }
+  
+    .billing .fw-bold {
+      font-size: 14px;
+    }
+  
+    .bill-dtl {
+     
+      padding-left: 5px;
+    }
+  
+    .d-flex.gap-3.align-items-center {
+      gap: 5px;
+    }
+  
+    .select-item img {
+        width: 50px;
+        height: 50px;
+    }
+  
+    .select-item p {
+      font-size: 12px;
+      line-height: 1.2;
+      padding-left: 10px;
+    }
+  
+    .dash {
+      margin: 10px 0;
+    }
+  
+    .form-check-label {
+      font-size: 12px;
+    }
+  
+    .quantity {
+      width: 30px;
+      text-align: center;
+    }
+  
+    .btn-container .order-btn {
+      font-size: 12px;
+      padding: 8px 12px;
+    }
+  
+    .help-desk span {
+      font-size: 12px;
+    }
+  
+    .ordr-submt {
+      font-size: 14px;
+      padding: 10px;
+    }
+  
+    .pay-order .fs-5 {
+      font-size: 14px;
+    }
+  
+    /* Adjust input fields */
+    input.form-control {
+      font-size: 14px;
+      padding: 5px;
+    }
+  
+    .order-field, .bill-dtl, .container {
+      margin: 0;
+      padding: 0 10px;
+      font-size: 15px;
+    }
+
+
+
+    .billing .col-md-12, .pay-order {
+      padding: 0;
+    }
+
+     
+.triangle-top-left-2 {
+    position: relative;
+    left: 5%;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 15px 15px 0;
+  
+    border-color: transparent transparent rgba(213, 213, 213, 0.71) transparent;
+  }
+  
+  .pop {
+    display: flex;
+    background-color: rgba(213, 213, 213, 0.71);
+    height: 55px;
+    align-items: center;
+    border-radius: 5px;
+    margin-left: 8px;
+    margin-right: 8px;
+  }
+
+  .help-desk {
+    display: grid;
+    height: 80px;
+    background-color: #ff0000;
+    border: 1px solid #d60000;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    align-items: center;
+    color: rgb(245, 245, 245);
+    font-size: 30px;
+    font-weight: bolder;
+    margin-top: 22px;
+    
+}
+
+  
+    /* Button alignment */
+    .btn-container, .d-grid {
+      display: flex;
+      justify-content: center;
+    }
+  }
