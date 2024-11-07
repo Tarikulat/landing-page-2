@@ -362,6 +362,8 @@ font-weight: bolder;
 /* order section start  */
 .order-section {
     background-color: rgba(252, 195, 195, 0.681);
+    padding-top: 40px;
+    padding-bottom: 40px;
     
 }
 
